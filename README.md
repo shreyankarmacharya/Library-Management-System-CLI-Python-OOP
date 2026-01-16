@@ -2,7 +2,10 @@ Library Management System (Python CLI, OOP):
 
 Description:
 This is a simple Library Management System implemented in Python using Object-Oriented Programming (OOP) principles.
-The program allows users to register, add books, borrow and return books, and view available books. It simulates a basic CLI library system and tracks user borrowings, book availability, and simple fines for late returns.
+The program allows users to register, add books, borrow and return books, and view available books. It simulates a basic CLI library system and tracks user borrowings, book availability, and simple fines for late returns. 
+
+I decided to do this to challenge my OOP skills that I have been learning in A levels. There is alot of redundancy and efficiency and this code isn't perfect, but it is fully functional as long as the assumptions are met.
+
 
 
 Features:
@@ -29,7 +32,7 @@ OOP Practices: Clear separation of responsibilities between classes and clean me
 
 
 Assumptions:
-All user inputs are of the correct type (int for IDs and hours, str for names).
+All user inputs are of the correct type (int for IDs and hours, str for names). [Main assumption]
 Book and user IDs are assumed to be unique but not enforced.
 Optional features like due dates beyond simple hour-based fines are not implemented.
 Duplicate borrowing of the same book by the same user is prevented via availability checks.
